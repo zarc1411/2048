@@ -18,14 +18,11 @@ namespace TwoZeroFourEight
             
             Console.WriteLine("WELCOME!!!");
  
-            
             Input ob2 = new Input();
             Grid.randomIndexes(initialNumOne , initialNumTwo);
             Grid.printTheGrid();
 
             ConsoleKeyInfo key;
-          
-            
             Console.WriteLine("Please enter UP/DOWN/LEFT/RIGHT");
 
             do
